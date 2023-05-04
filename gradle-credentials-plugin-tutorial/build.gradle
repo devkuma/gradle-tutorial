@@ -1,0 +1,5 @@
+plugins {
+    id 'nu.studer.credentials' version '3.0'
+}
+
+println "Username: ${credentials.forKey('username')}, Password: ${credentials.forKey('password')}"
